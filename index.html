@@ -31,7 +31,9 @@
                 success : function(data){
                     reset();
 
-                    quoteInterval = showText('#quote', data.quote, 0, Math.max(1500/data.quote.length, 50));
+                    let quote = '“' + data.quote + '”';
+                    
+                    quoteInterval = showText('#quote', quote, 0, Math.max(1500/data.quote.length, 50));
                     authorInterval = showText('#author', "- " + data.author, 0, 50);
                 },
                 error : function(request, error){

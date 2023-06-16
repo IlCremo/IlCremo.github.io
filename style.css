@@ -12,6 +12,11 @@ body{
     background: linear-gradient(45deg, #2d388a, #00aeef);
 }
 
+@keyframes shiftHUE {
+    from {backdrop-filter: hue-rotate(0deg);}
+    to {backdrop-filter: hue-rotate(360deg);}
+}
+
 main{
     width: 100vw;
     height: 100vh;
@@ -19,6 +24,8 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    animation: shiftHUE 20s infinite;
 }
 
 .quote-container{
