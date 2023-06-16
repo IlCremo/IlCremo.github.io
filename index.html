@@ -9,7 +9,7 @@
 </head>
 <body>
     <main>
-        <div class="quote-container">
+        <div id="quote-container">
             <p id="quote">Press anywhere to generate a quote</p>
             <p id="author"></p>
         </div>
@@ -25,6 +25,8 @@
         var quoteInterval, authorInterval;
 
         function getQuote(){
+            $('#quote-container').hide();
+
             $.ajax({
                 url : 'https://eager-crab-sunbonnet.cyclic.app/quote',
                 type : 'GET',
@@ -44,6 +46,8 @@
         }
 
         function reset(){
+            $('#quote-container').show();
+            
             clearInterval(quoteInterval);
             clearInterval(authorInterval);
             

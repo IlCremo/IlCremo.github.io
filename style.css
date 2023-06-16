@@ -1,5 +1,6 @@
 *{
     font: italic min(1.5em, 10vw) "Serif Sans", serif;
+    color: white;
 }
 
 html, body{
@@ -28,10 +29,9 @@ main{
     animation: shiftHUE 20s infinite;
 }
 
-.quote-container{
+#quote-container{
     width: min(1000px, 90vw);
     text-align: left;
-    color: white;
 }
 
 #quote{
