@@ -1,0 +1,22 @@
+[
+	{
+		"nome": "Diploma di Istituto Tecnico Industriale G.Marconi, Gorgonzola (MI), in Informatica",
+		"anno": "2020",
+		"icona": "bi-mortarboard-fill"
+	},
+	{
+		"nome": "Laurea Triennale in Ingegneria Informatica",
+		"anno": "Ottobre 2024 (Previsto)",
+		"icona": "bi-mortarboard-fill"
+	},
+	{
+		"nome": "Cisco: IT Essentials, PC Hardware and Software",
+		"anno": "2019",
+		"icona": "bi-award-fill"
+	},
+	{
+		"nome": "Cisco: PCAP - Programming Essentials in Python",
+		"anno": "2020",
+		"icona": "bi-award-fill"
+	}
+]
